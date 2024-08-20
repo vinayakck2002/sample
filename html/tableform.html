@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>reg from</title>
 
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>reg form</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <table>
@@ -15,7 +18,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>turbo jose</td>
+                    <td>Turbo jose</td>
                     <td>turbojose369@gmail.com</td>
                     <td>turbo369</td>
                 </tr>
@@ -26,8 +29,9 @@
                 </tr>
             </tbody>
         </table>
-    </body>
+    
     <h1>HTML FORMS</h1>
+    <form action="/submit">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" placeholder="Enter your name">
     <br><br>
@@ -36,7 +40,19 @@
     <br><br>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" placeholder="Enter your password">
-
-
-    
+    <br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <br><br>
+    <label for="agree">Agree</label>
+    <input type="checkbox" id="agree" name="agree" value="agree">
+    <br><br>
+    <input type="button" value="click here">
+    <br><br>
+    <input type="submit">
+    </form>
+</body>
 </html>
