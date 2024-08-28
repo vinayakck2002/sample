@@ -8,6 +8,7 @@ nav {
 }
 nav span{
     margin: 130px;
+    float: left;
 }
 .one {
     color:white;

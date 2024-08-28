@@ -26,3 +26,24 @@ button {
     border-radius: 5px;
 }
 
+#one{
+    background-color: rgb(33, 14, 5);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#two{
+    background-color: rgb(24, 22, 4);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#three{
+    background-color: rgb(65, 69, 46);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
