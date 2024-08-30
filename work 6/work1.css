@@ -26,35 +26,39 @@ button {
     border-radius: 5px;
 }
 
-#one{
-    background-color: rgb(33, 14, 5);
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
+.content1{
+    background-color: rgb(0, 0, 255,0.5);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px black solid;
+    position: relative;
+    left: 100px;
+    top: 50px;
 }
 
-#two{
-    background-color: rgb(24, 22, 4);
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
+.content2{
+    background-color: rgb(255, 115, 0,0.5);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px black solid;
 }
 
-#three{
-    background-color: rgb(65, 69, 46);
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
+.content3 {
+    background-color: rgb(6, 128, 0,0.5);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px black solid;
 }
 
-span{
-    background-color: black;
-    color: orange;
-    text-align: center;
-    border: 2px solid black;
-    font-size: larger;
-   
-    
-    
 
-}
+
+
+
+
+
