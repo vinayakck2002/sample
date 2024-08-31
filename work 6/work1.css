@@ -1,3 +1,4 @@
+
 nav {
     background-color: black;
     padding:15px;
@@ -26,35 +27,52 @@ button {
     border-radius: 5px;
 }
 
+#bg {
+    background-color: rgb(151, 151, 151);
+}
+
 .content1{
     background-color: rgb(0, 0, 255,0.5);
     height: 100px;
     width: 100px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 40px;
     border: 2px black solid;
     position: relative;
-    left: 100px;
-    top: 50px;
+    left: 300px;
+    top: 150px;
 }
 
 .content2{
     background-color: rgb(255, 115, 0,0.5);
     height: 100px;
     width: 100px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 40px;
     border: 2px black solid;
+    position: relative;
+    left: 600px;
+    top: 0px;
+    bottom: 10px;
+
 }
 
 .content3 {
     background-color: rgb(6, 128, 0,0.5);
     height: 100px;
     width: 100px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 40px;
     border: 2px black solid;
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+   
+    
 }
+
+
+
 
 
 
