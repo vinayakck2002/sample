@@ -1,9 +1,10 @@
 *{
-    background-color: orange;
+    text-align: center;
 }
 #head{
     color: white;
     padding: 10px;
+    border-radius: 2px;
 }
 
 #foot{
@@ -12,8 +13,16 @@
 }
 
 #box{
-    background-color: black;
-    
-
-
+    background-color:black;
+    margin: 10px;
+    color: yellow;
 }
+
+#agree {
+    position: absolute;
+    left: 400px;
+
+   
+}
+
+
