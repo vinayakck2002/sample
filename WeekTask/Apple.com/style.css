@@ -47,10 +47,28 @@ section ul{
 .section-1 .big{
     font-size: 23px;
     font-weight: bold;
+    position: relative;
+    right: 100px;
 }
 
 .store:hover ~ .section-1 {
     display:block;
+}
+
+.section-2 .big{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.mac:hover ~ .section-2 {
+    display:block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
 }
 
 
